@@ -1,0 +1,12 @@
+;; Real-world organization location / contact.
+;; :head-role is institutional title only — no personal names.
+{:ooyake-id "gov.aus"
+  :official-url "https://www.australia.gov.au/"
+  :name-en "Commonwealth of Australia"
+  :name-local "Commonwealth of Australia"
+  :wikidata "Q408"
+  :head-role-note "institutional office title only; personal names of current office-holders are intentionally NOT stored"
+  :contact-page "official site + Wikidata/OSM"
+  :sourced-from "com-etzhayyim-ooyake gov-units (verbatim where present)"
+  :hq {:line-en "Parliament House, Capital Hill, Canberra ACT (seat of the Commonwealth of Australia)" :country "aus" :kind "headquarters" :provenance "official site + Wikidata/OSM" :last-verified "2026-06-05" :sourcing "authoritative"}
+}
