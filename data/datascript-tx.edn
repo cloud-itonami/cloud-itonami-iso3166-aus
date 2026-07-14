@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "aus.corporations-act-2001"
+           :title "Corporations Act 2001"
+           :jurisdiction "AUS"
+           :kind :law
+           :law-number "No. 50, 2001"
+           :url "https://www.legislation.gov.au/C2004A00818/latest"
+           :url-provenance :official-legislation-gov-au
+           :enacted-date "2001"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "aus.privacy-act-1988"
+           :title "Privacy Act 1988"
+           :jurisdiction "AUS"
+           :kind :law
+           :law-number "No. 119, 1988"
+           :url "https://www.legislation.gov.au/C2004A03712/latest"
+           :url-provenance :official-legislation-gov-au
+           :enacted-date "1988"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "aus.fair-work-act-2009"
+           :title "Fair Work Act 2009"
+           :jurisdiction "AUS"
+           :kind :law
+           :law-number "No. 28, 2009"
+           :url "https://www.legislation.gov.au/C2009A00028/latest"
+           :url-provenance :official-legislation-gov-au
+           :enacted-date "2009"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
